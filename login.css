@@ -16,6 +16,10 @@
 
 }
 
+.vector {
+    z-index: -1;
+}
+
 .logo {
     position: relative;
     bottom: 560px;
