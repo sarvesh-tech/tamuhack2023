@@ -16,9 +16,7 @@
 
 }
 
-.vector {
-    z-index: -1;
-}
+
 
 .logo {
     position: relative;
@@ -113,4 +111,13 @@ button {
     letter-spacing: -0.04em;
     
     color: #000000;
+}
+
+.newbutt {
+    background-color: #000000;
+    padding: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+    color:#ffffff
 }

@@ -251,6 +251,17 @@ button {
     left: -19px;
     top: 70px;
 
-    background: #FFFFFF;
+    background: none;
     border-radius: 34px;
+}
+
+.newbox{
+    left: 100px;
+    width: 95%;
+
+    padding-right: 10px;
+}
+
+.newbutt {
+    padding-bottom: 100px;
 }
