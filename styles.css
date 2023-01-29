@@ -1,7 +1,7 @@
 .main {  
     position: absolute;
     width: 430px;
-    height: 960px;
+    height: 1060px;
     left: 0px;
     top: 0px;
 
@@ -239,7 +239,32 @@ button {
 }
 
 .button:hover {
-    background-color: #4CAF50;
+    background-color: #00ee08;
+    color: white;
+  }
+
+.button1 {
+    position: absolute;
+    width: 91px;
+    height: 36px;
+    left: 280px;
+    top: 50px;
+
+    background: #FFC0FC;
+    border-radius: 10px;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+    padding-bottom: 7px;
+    margin-top: 55px;
+    margin-left: 20px;
+    background-color: #591A3E;
+    color: white;
+}
+
+.button1:hover {
+    background-color: #000000;
     color: white;
   }
 
@@ -257,10 +282,10 @@ button {
 
 .newbox{
     left: 100px;
-    width: 95%;
-
+    width: 100%;
     padding-right: 10px;
 }
+
 
 .newbutt {
     padding-bottom: 100px;
