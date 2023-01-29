@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>Login</title>
+</head>
+
+<style>
+    input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    div {
+        position: absolute;
+        border-radius: 5px;
+        background-color: none;
+        padding: 20px;
+    }
+    </style>
+
+<body>
+    <div class="main">
+        <img class="vector"src="/assets/images/Vector 1.png" alt="profile picture" style="left:20%">
+        <img class="icon"src="/assets/images/icon.png" alt="profile picture" style="left:20%">
+        <img class="logo"src="/assets/images/logo.png" alt="profile picture" style="left:20%">
+
+        <div>
+            <form action="/action_page.php">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

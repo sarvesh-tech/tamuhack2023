@@ -1,0 +1,114 @@
+.main {  
+    position: absolute;
+    width: 430px;
+    height: 932px;
+    background: #ffffff;
+    left: 0px;
+    top: 0px
+    
+}
+.icon {
+    position: relative;
+    width: 187px;
+    height: 167px;
+    left: 160px;
+    padding-left: 30px;
+    bottom: 600px;
+    z-index: -1; 
+
+}
+
+.logo {
+    position: relative;
+    bottom: 560px;
+}
+
+
+button {
+    background: none;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100.8%;
+    /* or 18px */
+    border: none;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    justify-content: center;
+    position: relative;
+    padding-top: 18px;
+}
+
+.button {
+    position: absolute;
+    width: 255px;
+    height: 57px;
+    left: 81px;
+    top: 565px;
+
+    background: #ffffff;
+    border-radius: 10px;
+    border-color: #000000;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.button:hover {
+    background-color: #ffc5f8;
+    color: white;
+  }
+
+
+.forms1 {
+    border-radius: 30px;
+    border-color: black;
+    position: absolute;
+    width: 45px;
+    height: 18px;
+    left: 59px;
+    top: 450px;
+
+}
+
+.log {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100.8%;
+    /* or 18px */
+    
+    letter-spacing: -0.04em;
+    
+    color: #000000;
+}
+
+.forms2 {
+    border-radius: 3px;
+    border-color: black;
+    position: absolute;
+    height: 18px;
+    left: 59px;
+    top: 550px;
+    margin-top: -24px;
+    
+    
+}
+
+.sign {
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100.8%;
+    /* or 18px */
+    
+    letter-spacing: -0.04em;
+    
+    color: #000000;
+}

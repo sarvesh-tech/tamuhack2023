@@ -1,0 +1,9 @@
+.main {  
+    position: absolute;
+    width: 430px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(337deg, rgba(115, 92, 221, 0.59) 47.14%, #F6A4B5 89.4%);
+}

@@ -1,0 +1,87 @@
+.main {  
+    position: absolute;
+    width: 430px;
+    height: 932px;
+    background: #ffffff;
+    left: 0px;
+    top: 0px
+}
+.icon {
+    position: relative;
+    width: 187px;
+    height: 167px;
+    left: 160px;
+    padding-left: 30px;
+    bottom: 600px;
+
+}
+
+.logo {
+    position: relative;
+    bottom: 560px;
+}
+
+.description {
+    position: absolute;
+    width: 245px;
+    height: 96px;
+    left: 86px;
+    top: 436px;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100.8%;
+    /* or 24px */
+
+    text-align: center;
+    letter-spacing: -0.04em;
+
+    color: #000000;
+}
+
+button {
+    background: none;
+
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 100.8%;
+    /* or 18px */
+    border: none;
+    text-align: center;
+    letter-spacing: -0.04em;
+    color: #000000;
+    justify-content: center;
+    position: relative;
+    padding-top: 18px;
+}
+
+button:hover {
+    color: #ffffff;
+}
+
+.button {
+    position: absolute;
+    width: 255px;
+    height: 57px;
+    left: 81px;
+    top: 565px;
+
+    background: #ffffff;
+    border-radius: 10px;
+    border-color: #000000;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+
+}
+
+.button:hover {
+    background-color: #000000;
+    color: white;
+  }
+

@@ -91,7 +91,7 @@
     margin-top: 15px;
     position: absolute;
     width: 402px;
-    height: 226px;
+    height: 246px;
     left: 13px;
     top: 175px;
 
@@ -121,11 +121,12 @@
 
 .progress {
     /*position: absolute; */
-    position: absolute;
+    position: relative;
 
 
     padding-left: 20px;
     padding-top: 100px;
+    padding-bottom: 105px;
 
     font-family: 'SF Pro Text';
     font-style: normal;
@@ -140,11 +141,11 @@
 }
 
 .progress-rectangle {
-    position: absolute;
+    position: relative;
     width: 360px;
     height: 19px;
     left: 20px;
-    top: 148px;
+    top: -83px;
 
     background: linear-gradient(90.02deg, #FEC2FA -7.07%, #E9F5C7 108.73%);
     border-radius: 5px;
@@ -170,7 +171,7 @@
     position: relative;
     height: 35px;
     left: 162px;
-    top: 25px;
+    top: 35px;
 
     font-family: 'SF Pro Text';
     font-style: normal;
@@ -248,7 +249,7 @@ button {
     width: 400px;
     height: 494px;
     left: -19px;
-    top: 40px;
+    top: 70px;
 
     background: #FFFFFF;
     border-radius: 34px;
