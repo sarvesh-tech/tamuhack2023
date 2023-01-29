@@ -239,7 +239,7 @@ button {
 }
 
 .button:hover {
-    background-color: #00ee08;
+    background: #000000;
     color: white;
   }
 
